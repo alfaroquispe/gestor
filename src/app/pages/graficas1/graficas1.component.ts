@@ -62,10 +62,10 @@ export class Graficas1Component implements OnInit {
         h.type = this.graficos[grafico]['type'];
         h.leyenda = this.graficos[grafico]['leyenda'];
 
-        console.log(h);
+        // console.log(h);
 
         this.grafVec.push(h);
-        console.log(this.grafVec);
+        // console.log(this.grafVec);
 
         // this.grafi.nombre = grafico;
         // this.grafi.labels = this.graficos[grafico]['labels'];
