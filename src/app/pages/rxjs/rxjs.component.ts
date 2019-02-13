@@ -35,7 +35,8 @@ export class RxjsComponent implements OnInit, OnDestroy {
 
       let contador = 0;
 
-      let intervalo = setInterval( () => {
+      // let intervalo = setInterval( () => {
+      setInterval( () => {
 
         contador += 1;
 
